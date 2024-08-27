@@ -8,5 +8,5 @@ if(xpHeroi >= 8001){
 } else if (xpHeroi < 8001) {
     console.log(nomeHeroi + " ainda não é um herói ascendente!")
 } else {
-    console.log(nomeHeroi + " ainda não é um herói!")
+    console.log("Não foi possível encontrar informações sobre o herói " + nomeHeroi)
 }
